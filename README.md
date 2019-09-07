@@ -29,5 +29,5 @@ echo "\n";
 
 ## Implement New Custom Logic
 ```
-Implement a class that implements LogicInterface interface see the examples LogicDivisibleBy/LogicOneOf logic implemented on logic_implementation.php file
+Implement a class that implements LogicInterface interface see the examples  LogicDivisibleBy/LogicOneOf logic implemented on logic_implementation.php file
 ```
