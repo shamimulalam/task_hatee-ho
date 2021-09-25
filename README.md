@@ -7,7 +7,7 @@ https://gist.github.com/mariusbalcytis/205de9e4ef7d29fc051f4e572bb30184
 - clone the project from repo
 ```
 - cd to task_hatee-ho
-- php main.php
+- php index.php
 It will show you the output
 ```
 
@@ -17,7 +17,7 @@ You should be able to test with any combination of implemented logic change and 
 
 # example
 //Task v3
-$logicTester->testLogicAndPrint(
+$logicTester->checkLogicAndPrint(
 	10, [
 		array('logic' => [new LogicOneOf([1,4,9]), new LogicGreaterThan(5)], 'print' => 'jofftchoff'),
 		array('logic' => [new LogicOneOf([1,4,9])], 'print' => 'joff'),
